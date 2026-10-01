@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Quote, Star } from "lucide-react";
 import { testimonials } from "@/data/testimonials";
 import { SectionContainer } from "@/components/ui/SectionContainer";
 
@@ -7,8 +6,11 @@ export function Testimonials() {
   return (
     <section className="section testimonials-section">
       <SectionContainer>
-        <div className="section-heading section-heading--split"><div><span className="eyebrow">Learner stories</span><h2>Discover What Our<br />Community Is Saying</h2></div><p>Thousands of learners and creators are already building brighter futures—one practical skill at a time.</p></div>
-        <div className="testimonial-grid">{testimonials.map((testimonial) => <article className="testimonial-card" key={testimonial.id}><Quote /><div className="testimonial-card__stars">{[1,2,3,4,5].map((star) => <Star key={star} size={15} fill="currentColor" />)}</div><blockquote>“{testimonial.quote}”</blockquote><footer><Image src={testimonial.avatar} alt={testimonial.name} width={48} height={48} /><div><strong>{testimonial.name}</strong><span>{testimonial.role}</span></div></footer></article>)}</div>
+        <div className="section-heading section-heading--split">
+          <h2>Discover What Our<br />Community Is Saying</h2>
+          <p>At ByteSpace, our vibrant community of learners and creators is at the heart of what we do. Hear directly from those who have experienced the transformative journey of learning and creating on our platform. Explore testimonials that reflect the diverse perspectives of enthusiastic learners and accomplished creators.</p>
+        </div>
+        <div className="testimonial-grid">{testimonials.map((testimonial) => <article className="testimonial-card" key={testimonial.id}><Image src={testimonial.avatar} alt={testimonial.name} width={76} height={76} /><h3>{testimonial.name}</h3><span>{testimonial.role}</span><blockquote>“{testimonial.quote}”</blockquote></article>)}</div>
       </SectionContainer>
     </section>
   );
