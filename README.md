@@ -2,6 +2,10 @@
 
 A polished, responsive course-marketplace frontend recreated from the supplied [ByteSpace Figma design](https://www.figma.com/design/26TBgRjmpuxudcErJsHUfy/ByteSpace-New-Check-website?node-id=0-1&p=f). The implementation focuses on clear component boundaries, reusable typed data, visual fidelity, and reliable behavior from desktop to mobile.
 
+## Live Demo
+
+[https://bytespace-new-inky-gamma.vercel.app](https://bytespace-new-inky-gamma.vercel.app)
+
 ## Routes
 
 - `/` — complete landing page
