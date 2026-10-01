@@ -11,10 +11,11 @@ export type Course = {
   level: string;
   students: string[];
   studentCount: string;
+  categories: string[];
 };
 
 export type Testimonial = {
-  id: number;
+  id: string;
   name: string;
   role: string;
   avatar: string;

@@ -7,7 +7,22 @@ import { LearningPaths } from "@/components/home/LearningPaths";
 import { PartnerLogos } from "@/components/home/PartnerLogos";
 import { Testimonials } from "@/components/home/Testimonials";
 import { Footer } from "@/components/layout/Footer";
+import { CourseExplorerProvider } from "@/components/course/CourseExplorerProvider";
 
 export default function HomePage() {
-  return <main><HeroSection /><PartnerLogos /><FeaturedCourses /><LearningPaths /><GrowthSection /><CreatorBenefits /><CreatorCTA /><Testimonials /><Footer /></main>;
+  return (
+    <CourseExplorerProvider>
+      <main>
+        <HeroSection />
+        <PartnerLogos />
+        <FeaturedCourses />
+        <LearningPaths />
+        <GrowthSection />
+        <CreatorBenefits />
+        <CreatorCTA />
+        <Testimonials />
+        <Footer />
+      </main>
+    </CourseExplorerProvider>
+  );
 }

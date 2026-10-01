@@ -13,7 +13,12 @@ export function PartnerLogos() {
     <section className="partners" aria-label="Partner logos">
       <SectionContainer>
         <div className="partners__list">
-          {logoMarks.map((mark, index) => <div className="partners__item" key={index}>{mark}<span>Logoipsum</span></div>)}
+          {logoMarks.map((mark) => (
+            <div className="partners__item" key={mark.key}>
+              {mark}
+              <span>Logoipsum</span>
+            </div>
+          ))}
         </div>
       </SectionContainer>
     </section>
