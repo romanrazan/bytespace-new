@@ -1,0 +1,11 @@
+:root {
+  --blue: #083fe5;
+  --lime: #c8ff00;
+  --ink: #11131a;
+  --muted: #69707d;
+  --line: #dfe3e8;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: var(--ink); background: #fff; font-family: Arial, sans-serif; }
