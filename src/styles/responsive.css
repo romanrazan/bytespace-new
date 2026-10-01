@@ -1,0 +1,115 @@
+@media (max-width: 1100px) {
+  .container { width: min(100% - 44px, 960px); }
+  .hero { min-height: 860px; }
+  .hero__inner { min-height: 778px; }
+  .hero__copy { padding-top: 44px; }
+  .hero h1 { font-size: 56px; }
+  .hero-art { min-height: 500px; }
+  .hero-art__portrait { width: 520px; height: 505px; }
+  .hero-shape--lime { width: 850px; height: 430px; bottom: -180px; }
+  .float-card--course { left: 35px; top: 70px; }
+  .float-card--progress { right: 35px; top: 80px; }
+  .course-grid { grid-template-columns: repeat(2, 1fr); }
+  .path-grid { grid-template-columns: repeat(3, 1fr); }
+  .split-section, .split-section--reverse { gap: 40px; }
+  .partners__list { gap: 18px; }
+  .partners__item span { font-size: 17px; }
+  .testimonial-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .testimonial-card:last-child:nth-child(odd) { width: calc(50% - clamp(12px, 1.25vw, 19px)); grid-column: 1 / -1; justify-self: center; }
+}
+@media (max-width: 980px) {
+  .auth-page { grid-template-columns: 1fr; }
+  .auth-page__brand { display: none; }
+  .auth-page__form { padding: 55px 24px; align-content: center; gap: 30px; background: linear-gradient(180deg, #edf2ff, #f8f9fb 45%); }
+  .auth-page__mobile-logo { display: block; }
+}
+@media (max-width: 820px) {
+  .container { width: min(100% - 36px, 700px); }
+  .navbar__inner { height: 72px; display: flex; justify-content: space-between; }
+  .navbar__toggle { z-index: 3; display: grid; }
+  .navbar__menu { position: absolute; z-index: 2; top: 72px; left: 0; right: 0; padding: 22px; display: none; gap: 20px; color: var(--ink); background: white; border: 1px solid #e5e8ed; border-radius: 0 0 18px 18px; box-shadow: 0 22px 48px rgba(8,25,78,.2); }
+  .navbar__menu--open { display: flex; flex-direction: column; }
+  .navbar__nav { flex-direction: column; gap: 18px; }
+  .navbar__actions { width: 100%; padding-top: 18px; justify-content: flex-start; border-top: 1px solid #e5e8ed; }
+  .hero { min-height: 840px; }
+  .hero__inner { min-height: 768px; }
+  .hero__copy { padding-top: 48px; }
+  .hero h1 { font-size: clamp(44px, 8vw, 56px); }
+  .hero-art { min-height: 470px; }
+  .hero-art__portrait { width: 470px; height: 460px; }
+  .hero-shape--lime { width: 720px; height: 390px; bottom: -170px; }
+  .float-card--course { left: 0; top: 55px; }
+  .float-card--progress { right: 0; top: 70px; }
+  .float-card--students { left: 0; bottom: 38px; }
+  .hero-shape--lime-corner { right: 15px; }
+  .partners .container { min-height: auto; padding: 42px 0; }
+  .partners__list { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px 20px; }
+  .section { padding: 88px 0; }
+  .section-heading--split { grid-template-columns: 1fr; gap: 22px; }
+  .path-grid { grid-template-columns: repeat(2, 1fr); }
+  .split-section, .split-section--reverse { grid-template-columns: 1fr; gap: 50px; }
+  .visual-composition { width: min(100%, 600px); margin: 0 auto; order: 2; transform: none; }
+  .creator-cta .container { align-items: center; }
+  .testimonials-section .section-heading--split { grid-template-columns: 1fr; gap: 28px; }
+  .testimonials-section .section-heading p { max-width: 100%; }
+  .testimonial-grid { grid-template-columns: 1fr; }
+  .testimonial-card:last-child:nth-child(odd) { width: auto; grid-column: auto; }
+  .testimonial-card { min-height: auto; }
+  .footer__main { grid-template-columns: 1fr; gap: 55px; }
+}
+@media (max-width: 560px) {
+  .container { width: calc(100% - 28px); }
+  .blue-grid { background-size: 58px 58px; }
+  .logo { font-size: 17px; }
+  .partners__list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px 12px; }
+  .partners__item:last-child { grid-column: 1 / -1; }
+  .partners__item svg { width: 34px; height: 34px; }
+  .partners__item span { font-size: 16px; }
+  .hero { min-height: 830px; }
+  .hero__inner { min-height: 758px; }
+  .hero__copy { padding-top: 42px; }
+  .hero h1 { font-size: 40px; line-height: 1.04; }
+  .hero__copy > p { margin: 18px 0 22px; font-size: 14px; }
+  .hero-search { height: auto; padding: 11px 11px 11px 17px; grid-template-columns: auto 1fr; border-radius: 18px; }
+  .hero-search .button { grid-column: 1 / -1; width: 100%; }
+  .hero-art { min-height: 450px; }
+  .hero-art__portrait { width: 350px; height: 390px; }
+  .hero-shape--lime { width: 560px; height: 320px; bottom: -120px; }
+  .hero-shape--white-left, .hero-shape--white-right, .hero-shape--lime-corner { display: none; }
+  .hero-squiggle--left { left: -25px; top: 35px; }
+  .hero-squiggle--right { right: -35px; bottom: 45px; }
+  .float-card { padding: 10px; }
+  .float-card--course { left: 0; top: 62px; }
+  .float-card--progress { right: 0; top: 132px; min-width: 155px; }
+  .float-card--students { left: 0; bottom: 18px; }
+  .section { padding: 74px 0; }
+  .section-heading h2, .split-section h2, .creator-cta h2 { font-size: 36px; }
+  .section-heading p, .split-section__copy > p { font-size: 14px; }
+  .category-list { flex-wrap: nowrap; margin-right: -14px; overflow-x: auto; padding-bottom: 8px; scrollbar-width: none; }
+  .courses-section__categories { margin-right: auto; flex-wrap: wrap; justify-content: center; overflow: visible; padding-bottom: 0; }
+  .category-pill { flex: 0 0 auto; }
+  .course-grid { grid-template-columns: 1fr; }
+  .course-card__image { height: 200px; }
+  .path-grid { grid-template-columns: 1fr; }
+  .visual-composition { min-height: 470px; }
+  .visual-composition__blob { width: 320px; height: 320px; }
+  .visual-composition__image, .visual-composition--creator .visual-composition__image { width: 285px; height: 400px; }
+  .mini-course-card { left: 0; top: 40px; bottom: auto; }
+  .mini-progress-card { right: 0; top: 60px; min-width: 162px; }
+  .metric-card--revenue { left: 0; top: 55px; }
+  .metric-card--year { left: 0; right: auto; top: 165px; }
+  .metric-card--happy { left: auto; right: 0; bottom: 20px; }
+  .stats { justify-content: space-between; gap: 15px; }
+  .creator-features { grid-template-columns: 1fr; }
+  .creator-cta { padding: 75px 0; }
+  .creator-cta__ring { right: -190px; top: -300px; }
+  .creator-cta h2 br { display: none; }
+  .newsletter { grid-template-columns: 1fr; }
+  .newsletter button { justify-content: center; }
+  .footer__links { grid-template-columns: 1fr 1fr; gap: 38px; }
+  .footer__bottom { gap: 22px; flex-direction: column; }
+  .footer__bottom div { flex-wrap: wrap; gap: 16px; }
+  .auth-page__form { padding: 32px 14px; }
+  .auth-card { padding: 31px 22px; border-radius: 22px; }
+  .auth-card h2 { font-size: 34px; }
+}
