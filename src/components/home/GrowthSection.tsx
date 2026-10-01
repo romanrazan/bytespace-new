@@ -17,7 +17,7 @@ export function GrowthSection() {
         </div>
         <div className="visual-composition visual-composition--learner">
           <span className="visual-composition__blob" />
-          <div className="visual-composition__image"><Image src="/images/hero-student.jpg" alt="Student building professional skills" fill loading="eager" sizes="(max-width: 900px) 86vw, 520px" /></div>
+          <div className="visual-composition__image"><Image src="/images/people/hero-student-transparent.png" alt="Student building professional skills" fill loading="eager" sizes="(max-width: 900px) 86vw, 520px" /></div>
           <div className="mini-course-card"><Image src="/images/course-digital.jpg" alt="" width={72} height={58} /><div><small>Popular Course</small><strong>Digital Design Essentials</strong><span><BookOpen size={12} /> 17 Lessons</span></div></div>
           <div className="mini-progress-card"><span><TrendingUp /></span><div><small>Learning Progress</small><strong>78%</strong><i><b /></i></div></div>
         </div>

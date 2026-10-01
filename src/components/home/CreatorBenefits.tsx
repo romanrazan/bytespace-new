@@ -11,7 +11,7 @@ export function CreatorBenefits() {
       <SectionContainer className="split-section split-section--reverse">
         <div className="visual-composition visual-composition--creator">
           <span className="visual-composition__blob" />
-          <div className="visual-composition__image"><Image src="/images/creator-woman.jpg" alt="ByteSpace course creator" fill loading="eager" sizes="(max-width: 900px) 86vw, 520px" /></div>
+          <div className="visual-composition__image"><Image src="/images/people/creator-transparent.png" alt="ByteSpace course creator" fill loading="eager" sizes="(max-width: 900px) 86vw, 520px" /></div>
           <div className="metric-card metric-card--revenue"><span><DollarSign /></span><div><small>Total Revenue</small><strong>$24,500</strong><em>+18.2%</em></div></div>
           <div className="metric-card metric-card--year"><small>Year To Date</small><strong>$18,940</strong><span>↗ 12.4%</span></div>
           <div className="metric-card metric-card--happy"><Users /><div><strong>2K+</strong><small>Happy Students</small><span><Star size={12} fill="currentColor" /> 4.8</span></div></div>

@@ -30,7 +30,7 @@ export function HeroSection() {
           <span className="shape shape--orbit" />
           <span className="shape shape--lime" />
           <span className="shape shape--dots" />
-          <div className="hero-art__portrait"><Image src="/images/hero-student.jpg" alt="A smiling ByteSpace learner" fill loading="eager" sizes="(max-width: 900px) 80vw, 550px" /></div>
+          <div className="hero-art__portrait"><Image src="/images/people/hero-student-transparent.png" alt="A smiling ByteSpace learner" fill loading="eager" sizes="(max-width: 900px) 80vw, 550px" /></div>
           <div className="float-card float-card--course">
             <span className="float-card__icon"><BookOpen /></span>
             <div><strong>UI/UX Design</strong><span>200 Courses</span><small><Users size={12} /> 1000+ Students</small></div>
