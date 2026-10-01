@@ -6,7 +6,7 @@ export function CourseCard({ course }: { course: Course }) {
   return (
     <article className="course-card">
       <div className="course-card__image">
-        <Image src={course.image} alt="" fill sizes="(max-width: 740px) 88vw, (max-width: 1100px) 42vw, 360px" />
+        <Image src={course.image} alt="" fill loading="eager" sizes="(max-width: 740px) 88vw, (max-width: 1100px) 42vw, 360px" />
         <div className="course-card__meta">
           <span>{course.lessons} Lessons</span>
           <span><Clock3 size={11} />{course.duration}</span>
